@@ -1,0 +1,16 @@
+C:\Users\Kur3k\source\repos\Kalkulator\Kalkulator\obj\Debug\net5.0\Kalkulator.csproj.AssemblyReference.cache
+C:\Users\Kur3k\source\repos\Kalkulator\Kalkulator\obj\Debug\net5.0\Kalkulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kur3k\source\repos\Kalkulator\Kalkulator\obj\Debug\net5.0\Kalkulator.AssemblyInfoInputs.cache
+C:\Users\Kur3k\source\repos\Kalkulator\Kalkulator\obj\Debug\net5.0\Kalkulator.AssemblyInfo.cs
+C:\Users\Kur3k\source\repos\Kalkulator\Kalkulator\obj\Debug\net5.0\Kalkulator.csproj.CoreCompileInputs.cache
+C:\Users\Kur3k\source\repos\Kalkulator\Kalkulator\bin\Debug\net5.0\Kalkulator.exe
+C:\Users\Kur3k\source\repos\Kalkulator\Kalkulator\bin\Debug\net5.0\Kalkulator.deps.json
+C:\Users\Kur3k\source\repos\Kalkulator\Kalkulator\bin\Debug\net5.0\Kalkulator.runtimeconfig.json
+C:\Users\Kur3k\source\repos\Kalkulator\Kalkulator\bin\Debug\net5.0\Kalkulator.runtimeconfig.dev.json
+C:\Users\Kur3k\source\repos\Kalkulator\Kalkulator\bin\Debug\net5.0\Kalkulator.dll
+C:\Users\Kur3k\source\repos\Kalkulator\Kalkulator\bin\Debug\net5.0\ref\Kalkulator.dll
+C:\Users\Kur3k\source\repos\Kalkulator\Kalkulator\bin\Debug\net5.0\Kalkulator.pdb
+C:\Users\Kur3k\source\repos\Kalkulator\Kalkulator\obj\Debug\net5.0\Kalkulator.dll
+C:\Users\Kur3k\source\repos\Kalkulator\Kalkulator\obj\Debug\net5.0\ref\Kalkulator.dll
+C:\Users\Kur3k\source\repos\Kalkulator\Kalkulator\obj\Debug\net5.0\Kalkulator.pdb
+C:\Users\Kur3k\source\repos\Kalkulator\Kalkulator\obj\Debug\net5.0\Kalkulator.genruntimeconfig.cache
