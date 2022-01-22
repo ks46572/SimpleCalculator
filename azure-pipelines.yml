@@ -6,11 +6,15 @@
 trigger:
 - master
 
-pool:
-  vmImage: ubuntu-latest
-
-steps:
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'test'
-    projects: '**/Kalkulator.Tests/*.csproj'
+stages:
+- stage: Test
+  displayName: "Uruchom testy dla aplikacji"
+  jobs:
+  - job: run_tests
+    pool:
+      vmImage: ubuntu-latest
+    steps:
+    - task: DotNetCoreCLI@2
+      inputs:
+        command: 'test'
+        projects: '**/Kalkulator.Tests/*.csproj'
