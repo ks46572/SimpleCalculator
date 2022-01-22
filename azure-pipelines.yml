@@ -55,6 +55,7 @@ stages:
     pool:
       vmImage: ubuntu-latest
     steps:
-    - task: CmdLine@2
+    - task: DotNetCoreCLI@2
       inputs:
-        script: './Kalkulator/bin/Debug/net5.0/Kalkulator.exe'
+        command: 'run'
+        projects: '**/Kalkulator/*.csproj'
