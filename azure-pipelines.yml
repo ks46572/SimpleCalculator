@@ -47,3 +47,14 @@ stages:
       inputs:
         command: 'test'
         projects: '**/Kalkulator.Tests/*.csproj'
+
+- stage: Run
+  displayName: "Uruchom aplikację konsolową"
+  jobs:
+  - job: Run
+    pool:
+      vmImage: ubuntu-latest
+    steps:
+    - task: CmdLine@2
+      inputs:
+        script: '$(Build.ArtifactStagingDirectory)/Kalkulator/bin/Debug/net5.0/Kalkulator.exe'
