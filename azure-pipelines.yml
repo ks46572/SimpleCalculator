@@ -20,6 +20,19 @@ stages:
         command: 'build'
         projects: '**/Kalkulator/*.csproj'
 
+- stage: Publish
+  displayName: "Publikuj aplikację"
+  jobs:
+  - job: Publish
+    pool:
+      vmImage: ubuntu-latest
+    steps:
+    - task: PublishBuildArtifacts@1
+      inputs:
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+        ArtifactName: 'drop'
+        publishLocation: 'Container'
+
 - stage: Test
   displayName: "Uruchom testy dla aplikacji"
   jobs:
