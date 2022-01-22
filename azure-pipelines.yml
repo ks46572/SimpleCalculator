@@ -57,4 +57,4 @@ stages:
     steps:
     - task: CmdLine@2
       inputs:
-        script: 'ls -la'
+        script: './Kalkulator/bin/Debug/net5.0/Kalkulator.exe'
